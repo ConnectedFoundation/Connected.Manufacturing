@@ -7,12 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Connected.Common.Sdk" Version="1.0.0-beta1" />
-    <PackageReference Include="Connected.Processes.Sdk" Version="1.0.2-beta1" />
-    <PackageReference Include="Connected.Sdk" Version="1.0.6-beta1" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\..\..\Connected.Common\src\Connected.Common.Sdk\Connected.Common.Sdk.csproj" />
+    <ProjectReference Include="..\..\..\Connected.Core\src\Connected.Sdk\Connected.Sdk.csproj" />
+    <ProjectReference Include="..\..\..\Connected.Processes\src\Connected.Processes.Sdk\Connected.Processes.Sdk.csproj" />
     <ProjectReference Include="..\Connected.Manufacturing.ProductionOrders.Extensions\Connected.Manufacturing.ProductionOrders.Extensions.csproj" />
     <ProjectReference Include="..\Connected.Manufacturing.ProductionOrders.Model\Connected.Manufacturing.ProductionOrders.Model.csproj" />
   </ItemGroup>

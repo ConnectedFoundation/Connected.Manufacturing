@@ -1,9 +1,7 @@
 ﻿using Connected.Manufacturing.ProductionOrders;
-using Connected.Manufacturing.ProductionOrders.Dtos;
 using Connected.Manufacturing.ProductionOrders.Extensions;
 using Connected.Processes.States;
 using Connected.Processes.Workflows.Activities;
-using Connected.Services;
 
 namespace Connected.ProductionOrders.Process.States;
 
@@ -12,21 +10,21 @@ internal sealed class OperationStateActionProvider(IProductionOrderService produ
 {
 	protected override async Task OnInvoke()
 	{
-		var activity = await activities.Select(Dto.CreatePrimaryKey(Dto.Activity));
+		//var activity = await activities.Select(Dto.CreatePrimaryKey(Dto.Activity));
 
-		if (activity is null)
-			return;
+		//if (activity is null)
+		//	return;
 
-		var dto = Dto.Create<ISelectProductionOrderByWorkflowDto>();
+		//var dto = Dto.Create<ISelectProductionOrderByWorkflowDto>();
 
-		dto.Workflow = activity.Workflow;
+		//dto.Workflow = activity.Workflow;
 
-		var productionOrder = await productionOrders.Select(dto);
+		//var productionOrder = await productionOrders.Select(dto);
 
-		if (productionOrder is null)
-			return;
+		//if (productionOrder is null)
+		//	return;
 
-		ProcessItems(activity, productionOrder);
+		//ProcessItems(activity, productionOrder);
 	}
 
 	private void ProcessItems(IActivity activity, IProductionOrder productionOrder)

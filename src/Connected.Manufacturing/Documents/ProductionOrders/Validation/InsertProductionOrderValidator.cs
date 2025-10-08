@@ -1,7 +1,7 @@
 ﻿using Connected.Manufacturing.ProductionOrders.Dtos;
 using Connected.Processes.Workflows;
 using Connected.Services;
-using Connected.Validation;
+using Connected.Services.Validation;
 using System.ComponentModel.DataAnnotations;
 
 namespace Connected.Manufacturing.ProductionOrders.Validation;

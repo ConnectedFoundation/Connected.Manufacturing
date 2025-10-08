@@ -9,7 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Connected.Core\src\Connected.Sdk\Connected.Sdk.csproj" />
     <ProjectReference Include="..\..\..\Connected.Processes\src\Connected.Processes.Sdk\Connected.Processes.Sdk.csproj" />
-    <ProjectReference Include="..\Connected.Manufacturing.ProductionOrders.Model\Connected.Manufacturing.ProductionOrders.Model.csproj" />
+    <ProjectReference Include="..\Connected.Manufacturing.Model\Connected.Manufacturing.Model.csproj" />
   </ItemGroup>
 
 </Project>

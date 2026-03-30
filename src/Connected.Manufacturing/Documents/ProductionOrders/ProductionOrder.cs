@@ -1,6 +1,7 @@
 ﻿using Connected.Annotations;
 using Connected.Annotations.Entities;
 using Connected.Entities;
+using Connected.Manufacturing.Documents.ProductionOrders;
 
 namespace Connected.Manufacturing.ProductionOrders;
 

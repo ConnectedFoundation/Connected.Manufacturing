@@ -2,7 +2,8 @@
 using Connected.Authentication;
 using Connected.Authorization;
 using Connected.Authorization.Services;
-using Connected.Manufacturing.ProductionOrders.Dtos;
+using Connected.Manufacturing.Documents.ProductionOrders;
+using Connected.Manufacturing.Documents.ProductionOrders.Dtos;
 using Connected.Manufacturing.ProductionOrders.Extensions;
 using Connected.Membership.Claims;
 using Connected.Membership.Claims.Dtos;

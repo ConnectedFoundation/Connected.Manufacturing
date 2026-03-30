@@ -1,6 +1,6 @@
 ﻿using Connected.Services;
 
-namespace Connected.Manufacturing.ProductionOrders.Dtos;
+namespace Connected.Manufacturing.Documents.ProductionOrders.Dtos;
 public interface ISelectProductionOrderByWorkflowDto : IDto
 {
 	int Workflow { get; set; }

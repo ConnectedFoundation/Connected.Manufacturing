@@ -1,7 +1,7 @@
 ﻿using Connected.Annotations;
-using Connected.Manufacturing.ProductionOrders.Dtos;
+using Connected.Manufacturing.Documents.ProductionOrders.Dtos;
 
-namespace Connected.Manufacturing.ProductionOrders;
+namespace Connected.Manufacturing.Documents.ProductionOrders;
 
 [Service, ServiceUrl(ProductionOrdersUrls.ProductionOrders)]
 public interface IProductionOrderService

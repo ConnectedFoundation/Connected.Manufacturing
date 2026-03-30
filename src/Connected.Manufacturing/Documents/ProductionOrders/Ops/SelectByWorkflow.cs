@@ -1,5 +1,6 @@
 ﻿using Connected.Entities;
-using Connected.Manufacturing.ProductionOrders.Dtos;
+using Connected.Manufacturing.Documents.ProductionOrders;
+using Connected.Manufacturing.Documents.ProductionOrders.Dtos;
 using Connected.Services;
 using Connected.Storage;
 

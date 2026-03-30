@@ -1,4 +1,4 @@
-﻿using Connected.Manufacturing.ProductionOrders.Dtos;
+﻿using Connected.Manufacturing.Documents.ProductionOrders.Dtos;
 using Connected.Processes.Workflows;
 using Connected.Services;
 using Connected.Services.Validation;

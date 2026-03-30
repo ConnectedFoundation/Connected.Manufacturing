@@ -4,7 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>Connected.Manufacturing.ProductionOrders</RootNamespace>
+    <RootNamespace>Connected.Manufacturing</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

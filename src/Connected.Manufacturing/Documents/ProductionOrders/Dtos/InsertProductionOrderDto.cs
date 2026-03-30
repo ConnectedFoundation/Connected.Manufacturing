@@ -1,4 +1,6 @@
 ﻿using Connected.Annotations;
+using Connected.Manufacturing.Documents.ProductionOrders;
+using Connected.Manufacturing.Documents.ProductionOrders.Dtos;
 using Connected.Services;
 using System.ComponentModel.DataAnnotations;
 

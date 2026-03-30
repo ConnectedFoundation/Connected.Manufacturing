@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>1f4f80b9-c897-407a-97c5-2edfc3473048</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Connected.Common\src\Connected.Common.Sdk\Connected.Common.Sdk.csproj" />
+    <ProjectReference Include="..\..\..\Connected.Common\src\Connected.Common\Connected.Common.csproj" />
+    <ProjectReference Include="..\..\..\Connected.Core\src\Connected.Sdk\Connected.Sdk.csproj" />
+    <ProjectReference Include="..\..\..\Connected.Core\src\Connected\Connected.csproj" />
+    <ProjectReference Include="..\..\..\Connected.Processes\src\Connected.Processes.Sdk\Connected.Processes.Sdk.csproj" />
+    <ProjectReference Include="..\Connected.Manufacturing.Extensions.Legacy\Connected.Manufacturing.Extensions.Legacy.csproj" />
+    <ProjectReference Include="..\Connected.Manufacturing.Extensions\Connected.Manufacturing.Extensions.csproj" />
+    <ProjectReference Include="..\Connected.Manufacturing\Connected.Manufacturing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

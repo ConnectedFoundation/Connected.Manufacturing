@@ -1,7 +1,7 @@
 ﻿using Connected.Authentication;
 using Connected.Common.Types.Numbering.Incremental;
 using Connected.Common.Types.Numbering.Incremental.Dtos;
-using Connected.Manufacturing.ProductionOrders.Dtos;
+using Connected.Manufacturing.Documents.ProductionOrders.Dtos;
 using Connected.Services;
 
 namespace Connected.Manufacturing.ProductionOrders.ValueProviders;

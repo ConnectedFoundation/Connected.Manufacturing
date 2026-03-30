@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Connected.Core\src\Connected.Sdk\Connected.Sdk.csproj" />
+    <ProjectReference Include="..\Connected.Manufacturing.Model\Connected.Manufacturing.Model.csproj" />
+  </ItemGroup>
+
+</Project>

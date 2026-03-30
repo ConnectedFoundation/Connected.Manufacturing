@@ -1,6 +1,6 @@
 ﻿using Connected.Entities;
 
-namespace Connected.Manufacturing.ProductionOrders;
+namespace Connected.Manufacturing.Documents.ProductionOrders;
 
 public enum ProductionOrderStatus
 {
